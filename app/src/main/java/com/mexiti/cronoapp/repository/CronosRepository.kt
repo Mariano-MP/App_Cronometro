@@ -23,4 +23,3 @@ class CronosRepository@Inject constructor(private val cronoDatabaseDao:CronosDat
         .flowOn(Dispatchers.IO)
         .conflate()
 }
-
